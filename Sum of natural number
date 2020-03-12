@@ -1,0 +1,12 @@
+#incude <stdio. h>
+void main()
+ {
+    int i, num, sum=0;
+    printf("Enter an integer \t");
+    scanf("%d", &num);
+    for(i=1;i<=n;i++)
+      {
+         sum+=i;
+       }
+   printf("sum of first %d natural number is =%d\n", num, sum);
+}
