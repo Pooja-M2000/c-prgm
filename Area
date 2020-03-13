@@ -1,0 +1,40 @@
+#include <stdio.h> 
+#incude <math.h>
+void main ()
+ {
+   int a;
+   float b, h, a, c,s,base,l,d,l1
+   printf("Enter your choice \n1. triangle\n2.right angled triangle \n3. Trapezium \n4. Rhombus\n5.parallelogram");
+   switch(a)
+     {
+       case1 :
+         printf("Enter 3 sides of triangle \n");
+         scanf("%f%f%f",&a, &b, &c); 
+         s=(a+b+c)/2;
+         printf("Area is = %f",sqrt(s*(s-a) *(s-b) *(s-c))); 
+         break; 
+       case2 :
+         printf("Enter the height and base of right angled triangle ");
+         scanf("%f%f",base,h);
+         printf("area  =%f",(base*h)/2);
+         break; 
+       case3 :
+         printf("Enter the length of parallel sides and distance between them \n");
+         scanf("%f%f",&l,&l1,  &d);
+         printf("area  =%f",(1/2)*(l*l1)*d);
+         break; 
+       case4 :
+         printf("Enter the 2 diagonals of rhombus\n");
+         scanf("%f%f",&d1, &d2); 
+         printf("area =%f",(1/2)*(d1*d2));
+         break; 
+       case5 :
+         printf("Enter the base and height of parallelogram \n");
+         scanf("%f%f",&B, &H); 
+         printf("area =%f",B*H);
+         break; 
+       defaultcase :
+         printf("invalid code");
+         break; 
+     }
+}
