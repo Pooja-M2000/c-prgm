@@ -1,0 +1,29 @@
+#include <stdio. h>
+void main()
+ {
+   int n1,i,n2;/*n1 and n2 are the given range from users*/
+   printf("Enter the given range \n");
+   scanf("%d%d",&n1, &n2); 
+   printf("The prime numbers from given range between %d and %d are:\n",n1, n2); 
+   if(n==1)
+    {
+      printf("The number is neither prime nor composite \n");
+     }
+   else
+     for(i=n1+1;i<n2;i++)
+       {
+         for(j=2;j<i/2;i++)
+           {
+             if(n%i==0)
+               {
+                 printf("The number is not Prime\n");
+                  break; 
+                }
+              if(i==n/2)
+                {
+                  printf("The number is Prime ")
+                 }
+           }
+        }
+   
+  }
